@@ -6,6 +6,26 @@
         <title>Zahlen erraten - Startbildschirm</title>
     </head>
     <body>
-        
+        <div class="Hintergrund">
+            <div class="Hauptcontainer">
+                <h1>Zahlen erraten</h1>
+                <p class="subtitel">>> Errate eine geheime Zahl <<</p>
+                <div class="Info-div">
+                    <div class="Info">
+                        <span class="Info-Name">Spielername</span>
+                        <span class="Info-Wert">Nico</span>  
+                    </div>
+                    <div class="Info">
+                        <span class="Info-Name">Gesammtversuche</span>
+                        <span class="Info-Wert">23</span>
+                    </div>
+                    <div class="Info">
+                        <span class="Info-Name">Siegesserie</span>
+                        <span class="Info-Wert">12</span>
+                    </div>
+                </div>
+                <a class="StartButton" href="schwierigkeitsgrad.php">Spiel starten</a>
+            </div>
+        </div>
     </body>
 </html>
