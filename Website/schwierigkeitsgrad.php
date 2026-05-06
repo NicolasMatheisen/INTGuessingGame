@@ -16,20 +16,14 @@
                         <span class="Schwierigkeitsgrad">Schwierigkeitsgrad Leicht</span>
                         <span class="Versuchsanzahl">20 Versuche</span>
                     </div>
-                </div>
-                <div class="Schwierigkeitsgrad-div">
                     <div class="Schwierigkitsgrad-Anzeige">
                         <span class="Schwierigkeitsgrad">Schwierigkeitsgrad Mittel</span>
                         <span class="Versuchsanzahl">10 Versuche</span>
                     </div>
-                </div>
-                <div class="Schwierigkeitsgrad-div">
                     <div class="Schwierigkitsgrad-Anzeige">
                         <span class="Schwierigkeitsgrad">Schwierigkeitsgrad Schwer</span>
                         <span class="Versuchsanzahl">5 Versuche</span>
                     </div>
-                </div>
-                <div class="Schwierigkeitsgrad-div">
                     <div class="Schwierigkitsgrad-Anzeige">
                         <span class="Schwierigkeitsgrad">Schwierigkeitsgrad Extrem</span>
                         <span class="Versuchsanzahl">3 Versuche</span>
