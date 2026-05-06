@@ -39,10 +39,6 @@ h1 {
     padding-bottom: 1rem;
 }
 
-.Info, .Schwierigkitsgrad-Anzeige {
-    padding-bottom: 1rem;
-}
-
 a {
     transition: background-color 0.25s ease;
 }
