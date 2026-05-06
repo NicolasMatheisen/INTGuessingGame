@@ -4,12 +4,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Zahlen erraten - Startbildschirm</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <div class="Hintergrund">
             <div class="Hauptcontainer">
                 <h1>Zahlen erraten</h1>
-                <p class="subtitel">>> Errate eine geheime Zahl <<</p>
+                <p class="Untertitel">>> Errate eine geheime Zahl <<</p>
                 <div class="Info-div">
                     <div class="Info">
                         <span class="Info-Name">Spielername</span>

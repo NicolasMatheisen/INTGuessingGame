@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+a {
+    transition: background-color 0.25s ease;
+}
+
+a:hover {
+    background-color: oklch(0.3 0 0);
+    color: oklch(0.7 0 0);
+}
+
+.Hauptcontainer, h1 {
+    color: oklch(0.9 0 0);
+    margin-bottom: 1.5rem;
+}
+
+.Hauptcontainer {
+    height: 50%;
+    width: 50%;
+}
+
+.Untertitel {
+    margin-bottom: 1.25rem;
+}
+
+.Untertitel, .Info-div, .StartButton {
+    color: oklch(0.8 0 0);
+}
+
+.Info-div, .Info:last-child{
+    margin-bottom: 1.25rem;
+}
+
+.Info{
+    margin-bottom: 1rem;
+}
+
+.Hintergrund {
+    background-color: oklch(0.1 0 0);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Hauptcontainer {
+    background-color: oklch(0.2 0 0);
+    text-align: center;
+}
