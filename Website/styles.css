@@ -6,6 +6,7 @@ html, body {
 .Hintergrund {
     background-color: oklch(0.1 0 0);
     height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,16 +15,20 @@ html, body {
 .Hauptcontainer {
     background-color: oklch(0.2 0 0);
     text-align: center;
-    height: 50%;
-    width: 50%;
+    padding: 1.5rem;
 }
 
 h1 {
     color: oklch(0.9 0 0);
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .Untertitel {
-    margin-bottom: 1.25rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 1.25rem;
 }
 
 .Untertitel, .Info-div, .StartButton, .Schwierigkeitsgrad-div {
@@ -31,11 +36,11 @@ h1 {
 }
 
 .Info-div, .Info:last-child, .Schwierigkeitsgrad-div, .Schwierigkitsgrad-Anzeige:last-child {
-    margin-bottom: 1.25rem;
+    padding-bottom: 1rem;
 }
 
 .Info, .Schwierigkitsgrad-Anzeige {
-    margin-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 
 a {

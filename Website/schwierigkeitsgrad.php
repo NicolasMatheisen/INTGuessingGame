@@ -13,23 +13,30 @@
                 <p class="Untertitel">>> Wähle einen Schwierigkeitsgrad aus <<</p>
                 <div class="Schwierigkeitsgrad-div">
                     <div class="Schwierigkitsgrad-Anzeige">
-                        <span class="Schwierigkeitsgrad">Schwierigkeitsgrad Leicht</span>
+                        <span class="Schwierigkeitsgrad">
+                            <a class="StartButton" href="Leicht.php">Schwierigkeitsgrad Leicht</a>
+                        </span>
                         <span class="Versuchsanzahl">20 Versuche</span>
                     </div>
                     <div class="Schwierigkitsgrad-Anzeige">
-                        <span class="Schwierigkeitsgrad">Schwierigkeitsgrad Mittel</span>
+                        <span class="Schwierigkeitsgrad">
+                            <a class="StartButton" href="Mittel.php">Schwierigkeitsgrad Mittel</a>
+                        </span>
                         <span class="Versuchsanzahl">10 Versuche</span>
                     </div>
                     <div class="Schwierigkitsgrad-Anzeige">
-                        <span class="Schwierigkeitsgrad">Schwierigkeitsgrad Schwer</span>
+                        <span class="Schwierigkeitsgrad">
+                            <a class="StartButton" href="Schwer.php">Schwierigkeitsgrad Schwer</a>
+                        </span>
                         <span class="Versuchsanzahl">5 Versuche</span>
                     </div>
                     <div class="Schwierigkitsgrad-Anzeige">
-                        <span class="Schwierigkeitsgrad">Schwierigkeitsgrad Extrem</span>
+                        <span class="Schwierigkeitsgrad">
+                            <a class="StartButton" href="Extrem.php">Schwierigkeitsgrad Extrem</a>    
+                        </span>
                         <span class="Versuchsanzahl">3 Versuche</span>
                     </div>
                 </div>
-                <a class="StartButton" href="index.php">Spiel starten</a>
             </div>
         </div>
     </body>
