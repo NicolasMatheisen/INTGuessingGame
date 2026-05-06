@@ -29,7 +29,7 @@
                         <span class="Versuchsanzahl">3 Versuche</span>
                     </div>
                 </div>
-                <a class="StartButton" href="schwierigkeitsgrad.php">Spiel starten</a>
+                <a class="StartButton" href="index.php">Spiel starten</a>
             </div>
         </div>
     </body>
