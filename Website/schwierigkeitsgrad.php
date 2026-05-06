@@ -3,9 +3,40 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Zahlen erraten - Schwierigkeitsgrad Menü</title>
+        <title>Zahl erraten - Schwierigkeitsgrad Menü</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h1>test</h1>
+        <div class="Hintergrund">
+            <div class="Hauptcontainer">
+                <h1>Zahlen erraten</h1>
+                <p class="Untertitel">>> Wähle einen Schwierigkeitsgrad aus <<</p>
+                <div class="Schwierigkeitsgrad-div">
+                    <div class="Schwierigkitsgrad-Anzeige">
+                        <span class="Schwierigkeitsgrad">Spwierigkeitsgrad Leicht</span>
+                        <span class="Versuchsanzahl">20 Versuche</span>
+                    </div>
+                </div>
+                <div class="Schwierigkeitsgrad-div">
+                    <div class="Schwierigkitsgrad-Anzeige">
+                        <span class="Schwierigkeitsgrad">Spwierigkeitsgrad Mittel</span>
+                        <span class="Versuchsanzahl">10 Versuche</span>
+                    </div>
+                </div>
+                <div class="Schwierigkeitsgrad-div">
+                    <div class="Schwierigkitsgrad-Anzeige">
+                        <span class="Schwierigkeitsgrad">Spwierigkeitsgrad Schwer</span>
+                        <span class="Versuchsanzahl">5 Versuche</span>
+                    </div>
+                </div>
+                <div class="Schwierigkeitsgrad-div">
+                    <div class="Schwierigkitsgrad-Anzeige">
+                        <span class="Schwierigkeitsgrad">Spwierigkeitsgrad Extrem</span>
+                        <span class="Versuchsanzahl">3 Versuche</span>
+                    </div>
+                </div>
+                <a class="StartButton" href="schwierigkeitsgrad.php">Spiel starten</a>
+            </div>
+        </div>
     </body>
 </html>
