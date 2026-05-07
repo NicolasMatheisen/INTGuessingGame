@@ -1,3 +1,8 @@
+<?php
+$usereingabe = $POST_['UserInput'] ?? null;
+$error = '';
+$gueltig = false;
+?>
 <!DOCTYPE html>
 <html lang="de">
     <head>
