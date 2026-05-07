@@ -28,7 +28,7 @@ html, body {
 .Hauptcontainer {
     position: relative;
     z-index: 1;
-    background-color: oklch(0.2 0 0);
+    background-color: oklch(0.1 0 0);
     text-align: center;
     padding: 1.5rem;
     border-radius: 0.5rem;
@@ -64,7 +64,7 @@ h1 {
 }
 
 .Info-Name {
-    color: oklch(0.6 0 0);
+    color: oklch(0.7 0 0);
     font-size: 0.9rem;
 }
 
@@ -72,6 +72,10 @@ h1 {
     color: oklch(0.9 0 0);
     font-size: 0.9rem;
     font-weight: bold;
+}
+
+.Hinweis {
+    color: oklch(0.8 0 0);
 }
 
 .Schwierigkeitsgrad-div {

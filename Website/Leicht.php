@@ -18,14 +18,12 @@
                 <div class="User-Interface">
                     <div class="UI-Input">
                         <span class="Hinweis">Die geheime Zahl liegt zwischen 1 und 10. Die gesuchte Zahl ist eine Ganzzahl</span> 
-                    </div>
-                    <div class="User-Interface">
                         <span class="UI-Input">
                             <form>
-                                <input type="text">
+                                <input type="number" name="UserInput" min="1" max="20" step="1" required>
                             </form>
                         </span>
-                    </div>
+                    </div>    
                 </div>
                 <a class="StartButton" href="schwierigkeitsgrad.php">Zahl einloggen</a>
             </div>
