@@ -28,7 +28,7 @@ html, body {
 .Hauptcontainer {
     position: relative;
     z-index: 1;
-    background-color: oklch(0.2 0 0 / 0.85);
+    background-color: oklch(0.2 0 0);
     text-align: center;
     padding: 1.5rem;
     border-radius: 0.5rem;
