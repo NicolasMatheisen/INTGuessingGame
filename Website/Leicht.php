@@ -1,7 +1,14 @@
 <?php
 $usereingabe = $POST_['UserInput'] ?? null;
-$error = '';
 $gueltig = false;
+$min = 1;
+$max = 20;
+
+if (filter_var($usereingabe, FILTER_VALIDATE_INT, array("options" => array("min_range"=>$min, "max_range"=>$max))) === false) {
+    echo("Bitte gebe eine Ganzzahl zwischen" + $min + "und" + $max + "ein.");
+} else {
+    $gueltig = true;
+}
 ?>
 <!DOCTYPE html>
 <html lang="de">
