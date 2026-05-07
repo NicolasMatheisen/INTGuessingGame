@@ -8,6 +8,10 @@
     </head>
     <body>
         <div class="Hintergrund">
+            <video autoplay loop muted playsinline>
+                <source src="HintergrundVideo.mp4" type="video/mp4">
+                Ihr Browser unterstützt kein Video.
+            </video>
             <div class="Hauptcontainer">
                 <h1>Zahlen erraten</h1>
                 <p class="Untertitel">>> Wähle einen Schwierigkeitsgrad aus <<</p>
